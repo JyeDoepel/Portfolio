@@ -6,12 +6,21 @@
   padding: 0;
 }
 
+h1, p {
+  font-family: "Montserrat", sans-serif;
+}
+
+
 li, a, button {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
   color: #edf0f1;
   text-decoration: none;
+}
+
+body {
+  background-color: white;
 }
 
 header {
@@ -67,7 +76,7 @@ button:hover {
 }
 
 .Card {
-  position: fixed;
+  position: absolute;
   background-color: #F4ECE6;
   width: 375px;
   height: 532px;
@@ -76,8 +85,69 @@ button:hover {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
+.WelcomeCard {
+  position: absolute;
+  width: 450px;
+  height: 532px;
+  left: calc(25% + 375px);
+  top: 25%;
+  /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+}
+
+.WelcomeCard-hello h1 {
+  font-size: 110px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.WelcomeCard-Resume {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 80px;
+}
+
+.WelcomeCard-Resume button {
+  width: 130px;
+}
+
+.WelcomeCard-Projects button {
+  width: 130px;
+  background-color: white;
+  border-color: black;
+  color: black;
+  border: solid 2px;
+  height: 38px;
+}
+
+.WelcomeCard-Projects button:hover {
+  background-color: rgba(0, 126, 169, 1);
+  color: white;
+}
+
+p {
+  font-size: 18px;
+}
+
+.WelcomeCard-Projects {
+  position: absolute;
+  margin-left: 220px;
+  margin-top: 80px;
+}
+
+.WelcomeCard-p1 {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 200px;
+}
+
+.WelcomeCard-p2 {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 280px;
+}
+
 .Card-profile {
-  position: fixed;
+  position: absolute;
   margin-left: 85px;
   margin-top: 50px;
   width: 205px;
@@ -93,20 +163,20 @@ button:hover {
 }
 
 .Card-first a {
-  position: fixed;
+  position: absolute;
   margin-top: 290px;
   margin-left: 162px;
 
 }
 
 .Card-second a {
-  position: fixed;
+  position: absolute;
   margin-top: 325px;
   margin-left: 137px;
 }
 
 .Card-title a{
-  position: fixed;
+  position: absolute;
   background-color: #F4ECE6;
   color: black;
   font-size: 30px;
@@ -119,14 +189,14 @@ button:hover {
   background-color: blue;
   width: 50px;
   height: 2px;
-  position: fixed;
+  position: absolute;
   margin-top: 380px;
   margin-left: 162.5px;
 }
 
 
 .Card-footer {
-  position: fixed;
+  position: absolute;
   width: 375px;
   background-color: white;
   height: 60px;
@@ -134,13 +204,13 @@ button:hover {
 }
 
 .Card-footer-github {
-  position: fixed;
+  position: absolute;
   margin-top: 17.5px;
   margin-left: 290px;
 }
 
 .Card-footer-linkedIn {
-  position: fixed;
+  position: absolute;
   margin-top: 17.5px;
   margin-left: 330px;
 }
@@ -150,8 +220,49 @@ button:hover {
   right: 0;
   bottom: 0;
   left: 0;
+  height: 80px;
   padding: 1rem;
-  background-color: #24252A;
+  background-color: #F4ECE6;;
   text-align: center;
 
+}
+
+.footer-email {
+  position: absolute;
+  left: 85%;
+  top: 21px;
+  width: 160px;
+}
+
+.footer-follow {
+  position: absolute;
+  left: 74%;
+  top: 21px;
+  width: 160px;
+}
+
+.footer a {
+  color: black;
+}
+
+.footer-emailHeading a, .footer-followHeading a {
+  font-weight: bold;
+}
+
+.footer-github, .footer-linkedIn {
+  width: 19px;
+}
+
+.footer-github {
+  position: absolute;
+  left: 35%;
+}
+
+.footer-linkedIn {
+  position: absolute;
+  left: 50%;
+}
+
+.footer-emailText a {
+  color: grey;
 }

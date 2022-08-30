@@ -1,9 +1,13 @@
 import React from 'react';
-import Card from './Card'
+import Card from './Card';
+import WelcomeCard from './WelcomeCard';
 
 function Main() {
   return (
-    <Card />
+    <div>
+      <Card />
+      <WelcomeCard />
+    </div>
   )
 }
 
