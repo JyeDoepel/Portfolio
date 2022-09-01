@@ -29,6 +29,7 @@ header {
   align-items: center;
   padding: 30px 10%;
   background-color: #24252A;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .header-title {
@@ -216,7 +217,7 @@ p {
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
@@ -224,6 +225,7 @@ p {
   padding: 1rem;
   background-color: #F4ECE6;;
   text-align: center;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 
 }
 
@@ -265,4 +267,233 @@ p {
 
 .footer-emailText a {
   color: grey;
+}
+
+.Resume-title {
+  text-align: center;
+  margin-top: 130px;
+}
+
+.Resume-title li {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+
+.Resume-Experience {
+
+}
+
+.Resume-Experience h1 {
+  position: absolute;
+  top: 380px;
+  left: calc(50% - 360px);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.Resume-Experience-body {
+  position: absolute;
+  top: 450px;
+  left: calc(50% - 360px);
+  width: 720px;
+  height: 700px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  background-color: #F4ECE6;
+}
+
+.bottom {
+  position: absolute;
+  top: 2200px;
+  height: 200px;
+  width: 100%;
+}
+
+.Resume-Experience-body-duration {
+  position: absolute;
+  top: -320px;
+  left: 400px;
+}
+
+.Resume-Experience-body-duration h1, .Resume-Education-body-Uni-duration h1 {
+  color: #007EA9;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.Resume-Experience-body-position {
+  position: absolute;
+  top: 100px;
+  left: 40px;
+}
+
+.Resume-Experience-body-position p, .Resume-Education-body-Uni p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.Resume-Experience-body-employee {
+  position: absolute;
+  top: 130px;
+  left: 40px;
+}
+
+.Resume-Experience-body-employee p {
+  font-size: 16px;
+}
+
+.Resume-Experience-body-location {
+  position: absolute;
+  top: 160px;
+  left: 40px;
+}
+
+.Resume-Experience-body-location p {
+  font-size: 16px;
+}
+
+.Resume-Experience-body-list, .Resume-Education-uni-list {
+  max-width: 450px;
+  position: absolute;
+  top: 100px;
+  left: 260px;
+}
+
+.Resume-Experience-body-list p, .Resume-Experience-body-list-ST p, .Resume-Education-uni-list p {
+  color: black;
+  margin: 10px 0px;
+}
+
+.Resume-Experience-body-IM {
+  left: 260px;
+  position: absolute;
+  top: 65px;
+}
+
+.Resume-Experience-body-IM p, .Resume-Experience-body-ST p, .Resume-Education-body-Uni-relTitle p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Resume-Experience-body-ST {
+  left: 260px;
+  position: absolute;
+  top: 420px;
+}
+
+.Resume-Experience-body-list-ST {
+  max-width: 440px;
+  position: absolute;
+  top: 450px;
+  left: 260px;
+}
+
+.Resume-Education h1 {
+  position: absolute;
+  top: 1250px;
+  left: calc(50% - 360px);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.Resume-Education-body {
+  position: absolute;
+  top: 1320px;
+  left: calc(50% - 360px);
+  width: 720px;
+  height: 350px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  background-color: #F4ECE6;
+}
+
+.Resume-Education-body-Uni-duration {
+  position: absolute;
+  top: -1190px;
+  left: 400px;
+}
+
+.Resume-Education-body-Uni-duration h1 {
+  font-size: 26px;
+}
+
+.Resume-Education-body-Uni {
+  position: absolute;
+  top: 100px;
+  left: 40px;
+}
+
+.Resume-Education-body-degree p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.Resume-Education-body-degree {
+  position: absolute;
+  top: 122px;
+  left: 40px;
+}
+
+.Resume-Education-body-Uni-relTitle {
+  left: 310px;
+  position: absolute;
+  top: 65px;
+}
+
+.Resume-Education-uni-list {
+  max-width: 400px;
+  position: absolute;
+  top: 100px;
+  left: 300px;
+}
+
+.Resume-Skills h1 {
+  position: absolute;
+  top: 1780px;
+  left: calc(50% - 360px);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.Resume-Skills-body {
+  position: absolute;
+  top: 1850px;
+  left: calc(50% - 360px);
+  width: 720px;
+  height: 350px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  background-color: #F4ECE6;
+}
+
+.Resume-Skills-body-lang {
+  position: absolute;
+  top: 50px;
+  left: 60px;
+}
+
+.Resume-Skills-body-lang p, .Resume-Skills-body-tech p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Resume-Skills-body-lang-list p, .Resume-Skills-body-tch-list p{
+  color: black;
+  margin-top: 10px;
+}
+
+.Resume-Skills-body-lang-list {
+  position: absolute;
+  top: 90px;
+  left: 60px;
+}
+
+.Resume-Skills-body-tech {
+  position: absolute;
+  top: 50px;
+  left: 360px;
+}
+
+.Resume-Skills-body-tch-list {
+  position: absolute;
+  top: 90px;
+  left: 360px;
 }

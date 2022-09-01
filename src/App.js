@@ -1,15 +1,18 @@
 import React from 'react';
-import Header from './Components/Header';
-import Main from './Components/Main';
-import Footer from './Components/Footer';
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+import Home from './Pages/Home';
+import Projects from './Pages/Projects';
+import Resume from './Pages/Resume';
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Main />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/projects" element={<Projects/>} />
+        <Route path="/resume" element={<Resume/>} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
